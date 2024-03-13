@@ -1,0 +1,43 @@
+<script>
+
+var name
+name = "Luisa"
+let age, isHuman
+age = 18
+isHuman = true
+
+// multiplos argumentos na função
+console.log(name, age, isHuman)
+
+//concatenação e interpolação
+console.log(`o ${name} tem ${age} anos`) //obrigatorio uso das aspas ``
+// outra opção
+//console.log("o " + name + " tem " + age + " anos")
+
+
+//OBJETOS
+const person = {
+    name: "Luisa",
+    age: 18,
+    isHuman: true
+}
+
+console.log(person.name) //puxar atributo de um objeto 
+console.log(`A ${person.name} tem ${person.age} anos`)
+
+const arrayAnimals = [
+    "Cachorro",
+    "Gato",
+    "Cobra",
+    {
+        name: "Elefante",
+        age: 2
+    }
+]
+
+console.log(arrayAnimals[0]) //primeiro item da minha lista, começa em 0 e vai até 2 (3 itens)
+console.log(arrayAnimals.length) //tamanho/ quantos itens tem na lista
+console.log(`impressao de objeto\n`)
+console.log(arrayAnimals[3]) //Objeto dentro do array
+
+</script>
